@@ -9,7 +9,7 @@ if len(sys.argv) != 3:
 
 # Checks file extension.
 file_extension = sys.argv[1].split(".")[-1]
-if file_extension != 'csv' and file_extension != 'xls' and file_extension != 'xlms':
+if file_extension != 'csv' and file_extension != 'xls' and file_extension != 'xlms' and file_extension != 'xlsx':
     print("Error! Unknown format. Please provide .csv, .xls, or .xlms input.")
     exit(1)
 
