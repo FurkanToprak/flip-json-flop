@@ -4,7 +4,7 @@ import pandas as pd
 import sys
 # Checks for correct arguments.
 if len(sys.argv) != 3:
-    print("Error! Usage: write_to_json.py <input file.csv/xls/xlms> <output file.json>")
+    print("Error! Usage: flip_json_flop.py <input file.csv/xls/xlms> <output file.json>")
     exit(1)
 
 # Checks file extension.
