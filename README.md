@@ -2,7 +2,7 @@
 Turns CSV, XLX, and XLSX files into JSON format. Is meant for easy command line usage.
 
 ## Usage
-`flip-json-flop.py <INPUT.csv/xlsx/xls> <OUTPUT.json>`
+`python flip-json-flop.py <INPUT.csv/xlsx/xls> <OUTPUT.json>`
 ## Necessary installations
 Because this is achieved by first turning the CSV, XLSX, and XLSM files into pandas DataFrames, you may need to install pandas first:
 `pip install pandas` 
