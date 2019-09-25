@@ -30,5 +30,5 @@ def convert_xls_xlsx(input_file, output_file):
 
 if file_extension == 'csv':
     convert_csv(sys.argv[1], sys.argv[2])
-elif file_extension == 'xls' or file_extension == 'xlsx' or file_extension == 'xlsm':
+elif file_extension == 'xls' or file_extension == 'xlsx' or file_extension == 'xlms':
     convert_xls_xlsx(sys.argv[1], sys.argv[2])
