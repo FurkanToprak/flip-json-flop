@@ -4,13 +4,13 @@ import pandas as pd
 import sys
 # Checks for correct arguments.
 if len(sys.argv) != 3:
-    print("Error! Usage: flip_json_flop.py <input file.csv/xls/xlms> <output file.json>")
+    print("Error! Usage: flip_json_flop.py <input file.csv/xls/xlsm> <output file.json>")
     exit(1)
 
 # Checks file extension.
 file_extension = sys.argv[1].split(".")[-1]
-if file_extension != 'csv' and file_extension != 'xls' and file_extension != 'xlms' and file_extension != 'xlsx':
-    print("Error! Unknown format. Please provide .csv, .xls, or .xlms input.")
+if file_extension != 'csv' and file_extension != 'xls' and file_extension != 'xlsm' and file_extension != 'xlsx':
+    print("Error! Unknown format. Please provide .csv, .xls, or .xlsm input.")
     exit(1)
 
 
